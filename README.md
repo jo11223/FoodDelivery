@@ -1,2 +1,2 @@
 # FoodDelivery
-This project is a comprehensive web application designed to connect freelancers with companies looking for skilled professionals. It provides functionality for both user groups to register, manage their profiles, and interact with the platform efficiently. The system is built using Node.js, Express, and MongoDB for the backend.
+This project is a comprehensive web application that connects customers with local restaurants, allowing them to browse menus, place orders, and track deliveries in real time. It features secure user authentication, restaurant management tools, and an intuitive order-tracking interface for a seamless food ordering experience.
