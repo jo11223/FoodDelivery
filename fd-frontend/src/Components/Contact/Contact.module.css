@@ -1,0 +1,112 @@
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #000;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.inputField {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+}
+
+.icon {
+  color: #f97316;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #333;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.error {
+  border: 1px solid #ff6b6b;
+  background-color: #ffe6e6;
+}
+
+.errorText {
+  color: #ff6b6b;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  background: #f2f2f2;
+  font-family: inherit;
+}
+
+.counter {
+  text-align: right;
+  margin-top: 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.button {
+  display: block;
+  width: 30%;
+  background: linear-gradient(to right, #f97316, #ef4444);
+  color: white;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.button:disabled {
+  background: linear-gradient(to right, #f97316, #ef4444);
+  cursor: not-allowed;
+}

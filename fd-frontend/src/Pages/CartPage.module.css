@@ -1,0 +1,130 @@
+.cartPage {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffffee;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 1rem;
+  gap: 1rem;
+  font-weight: 500;
+}
+
+.itemDetails {
+  flex: 1;
+  word-break: break-word;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  color: #111827;
+}
+
+.priceAndControls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  white-space: nowrap;
+}
+
+.unitPrice {
+  color: #f97316;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  min-width: 80px;
+  text-align: right;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controls button {
+  background-color: #f3f4f6;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #111827;
+  transition: background 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: #d1d5db;
+}
+
+.controls span {
+  min-width: 28px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Red delete button */
+/* .deleteBtn {
+  background-color: #ef4444;
+  color: #fff;
+} */
+.deleteBtn {
+  color: red;
+  background-color: transparent;
+}
+/* .deleteBtn:hover {
+  background-color: #dc2626;
+} */
+
+.total {
+  /* text-align: right; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #f97316;
+  margin-bottom: 0;
+}
+
+.checkoutBtn {
+  /* margin-bottom: 1.5rem; */
+  padding: 1rem 1.5rem;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* float: right; */
+}
+
+/* .checkoutBtn:hover {
+  background-color: #fb923c;
+} */
+
+.itemInfo {
+  flex: 1;
+  text-align: center;
+}
+
+.itemImage {
+  width: 200px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}

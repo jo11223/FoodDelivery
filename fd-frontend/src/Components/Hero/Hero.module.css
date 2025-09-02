@@ -1,0 +1,139 @@
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content {
+  max-width: 900px;
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+  color: white;
+}
+
+.explore {
+  background: linear-gradient(135deg, #53d858, #15854d, #05752a);
+  border: none;
+}
+
+.cart {
+  background: rgba(6, 235, 36, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-color: #02e90a;
+}
+
+.icon {
+  font-size: 1.1rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.featureCard {
+  background: rgba(255, 255, 255, 0.055);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 0.5rem 1.2rem;
+  width: 270px;
+  text-align: center;
+  border-color: #ec2424;
+}
+
+.featureIcon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffcc00;
+}
+
+.featureCard h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.featureCard p {
+  color: #ddd;
+  font-size: 0.9rem;
+}
+.iconCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0.5rem auto;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* Background colors for each */
+.delivery {
+  /* background-color: #ff5722; */
+  background: linear-gradient(135deg, #f0ab16, #ee2718);
+}
+
+.ingredients {
+  /* background-color: #4caf50; */
+  background: linear-gradient(135deg, #2bee32, #1a4735);
+}
+
+.rating {
+  /* background-color: #6c63ff; */
+  background: linear-gradient(135deg, #15608b, #161085);
+}
