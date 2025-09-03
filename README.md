@@ -128,22 +128,6 @@ The app will be accessible at `http://localhost:3000`.
 
 ---
 
-## **🎨 Screenshots / UI**
-
-*(Add images here of your dashboard, menus, or order pages for clarity)*
-
----
-
-## **📦 API Overview**
-
-* `POST /api/auth/register` – Register a new user
-* `POST /api/auth/login` – Login
-* `GET /api/restaurants` – List all restaurants
-* `POST /api/orders` – Place an order
-  *(Include other endpoints as needed)*
-
----
-
 ## **📌 Notes**
 
 * Ensure **Node.js (v14+)** and **npm** are installed.
@@ -152,22 +136,6 @@ The app will be accessible at `http://localhost:3000`.
 
 ---
 
-## **🚀 Future Improvements**
 
-* Mobile app integration (Flutter)
-* Real-time order tracking with WebSockets
-* Payment gateway integration
-* Review and rating system
 
----
 
-## **👨‍💻 Author**
-
-* James Mekonnen – Computer Science Graduate
-* Passionate about full-stack web development and building real-world applications
-
----
-
-If you want, I can **also make a version that’s more “GitHub-ready” with badges, a table of contents, and emojis for each section** so it looks very polished and professional.
-
-Do you want me to do that next?
